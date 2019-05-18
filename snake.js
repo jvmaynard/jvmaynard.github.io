@@ -121,7 +121,7 @@ var snake = [{ top: 1, left: 0, direction: "down" }, { top: 0, left: 0, directio
 
 var apple = { top: 8, left: 10};
 
-CHUNK.executeNTimesPerSecond(advanceGame, 1);
+CHUNK.executeNTimesPerSecond(advanceGame, 4);
 // moves game FASTER .. in intervals
 
 CHUNK.onArrowKey(changeDirection);
